@@ -3,7 +3,7 @@ from IPython.display import display
 import time
 import datetime
 
-class TaskProgressBar:
+class TaskProgressbar:
     def __init__(self, task_ids, label="Task Progress", update_interval=0.1, status_order=None):
         self.label = label
         self.update_interval = update_interval
